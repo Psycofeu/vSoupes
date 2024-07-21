@@ -18,9 +18,9 @@ class Main extends PluginBase implements Listener
     {
         $player = $event->getPlayer();
         $item = $event->getItem();
-        if ($item->getName() === $this->getConfig()->get("item")) {
+        if (strtolower($item->getName()) === strtolower($this->getConfig()->get("item"))) {
             $health = $player->getHealth();
-            $itemsToRemove = ($health < 2) ? 3 : (($health <= 5.5) ? 2 : (($health <= 9.5) ? 1 : 0));
+            $itemsToRemove = ($health < 3) ? 3 : (($health <= 11) ? 2 : (($health <= 19) ? 1 : 0));
             if ($itemsToRemove > 0) {
                 $item->setCount($item->getCount() - $itemsToRemove);
                 $player->getInventory()->setItemInHand($item);
