@@ -1,0 +1,2 @@
+# vSoupes
+vSoupes plugin
