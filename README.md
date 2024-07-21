@@ -1,7 +1,7 @@
 # vSoupes
 Soup plugin for PMMP
 
-![image]("https://minecraft.wiki/images/Beetroot_Soup_JE2_BE2.png?a48bd")
+![image](https://minecraft.wiki/images/Beetroot_Soup_JE2_BE2.png?a48bd)
 
 - 🚧 My projects :
  
